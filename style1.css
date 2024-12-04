@@ -1,0 +1,126 @@
+body{
+    width: 1000px;
+    font-family: 'Segoe UI';
+    margin: 0 auto;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+              'company' 'company'
+              'dashboard' 'dashboard'; 
+     grid-template-columns: 250px 1fr ; 
+     font-family: 'Segoe UI'; 
+}
+menu{
+    width: 200px;
+    font-size: 20px;
+    margin: 15px 10px 10px 10px ;
+    /* padding: 5px 5px ; */
+    font-family: 'Segoe UI';
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    border: 1px solid grey;
+    background-color:white;
+}
+img{
+    width: 15px;
+}  
+h1{
+     font-size: larger;
+     margin: 10px 10px;
+}
+.footer{
+    /* grid-area: footer; */
+    display: flex;
+    justify-content: space-between;
+}     
+li{
+    list-style-type: none;
+}
+.das:hover{
+    background: rgb(225, 42, 97);
+    color:gray;
+    
+}
+.us:hover{
+    background: rgb(225, 42, 97);
+    color:gray;
+}
+.map:hover{
+    background: rgb(225, 42, 97);
+    color: gray;
+}
+.not:hover{
+    background: rgb(225, 42, 97);
+    color: gray;
+}
+.sup:hover{
+    background: rgb(225, 42, 97);
+    color: gray;
+}
+.thompson{
+    border: 1px solid grey;
+}
+.item content{
+    background-color: grey;
+    flex-wrap: wrap;
+     grid-area: content;
+}
+.section1{
+background-color: white;
+}
+.section2{
+    background-color: white;
+}
+.editprofile{
+    background-color: rgb(129, 17, 54);
+    position: absolute;
+    margin: -30px 30px 0px 30px;
+    width: 500px; 
+}
+.profile{
+    /* background-color: aquamarine; */
+    /* position: relative; */
+    margin-left: 10px;
+    margin-top: 40px;
+    border: 1px solid grey;
+    width: 550px; 
+}
+.button{
+    border: 1px solid grey;
+    background-color: rgb(129, 17, 54);
+    margin-left:400px;
+    color: white;
+}
+.table3{
+    justify-content: center;
+    font-size: 10px;
+    padding: 15px;   
+}
+.a1234{
+    display: flex;
+    justify-content: space-between;
+}
+.alec{
+    width: 50px;
+    border-radius:  100px;
+    display: flexs;
+    right: 15px;
+    border-radius: 50%;
+}
+/* .hr{
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: ;
+} */
